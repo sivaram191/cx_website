@@ -54,10 +54,33 @@
   margin: 0 auto;
 }
 
+ .b2{
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width:600px;
+  transition: background-color 0.3s ease;
+  border-radius: 100px;
+  left: 50%;
+  right: 50%;
+  margin: 0 auto;
+  margin-bottom: 36px;
+ }
+
+.btn-2:hover {
+  background-color: #e75454;
+}
+
 
 @media (max-width: 768px) {
   .clients-section h2 {
-    font-size: 50px;
+    font-size: 45px;
     margin-bottom: 30px; /* Reduce the bottom margin */
     
   }
@@ -76,8 +99,8 @@
   }
 
   .client img {
-    width: 350px; /* Increase the max-width to make the logos larger */
-    height: 170px; 
+    width: 150px; /* Increase the max-width to make the logos larger */
+    height: 130px; 
     margin-bottom: 30px; /* Increase the gap between the image and the next logo */
     padding: 15px;
     margin-right: 200px;
@@ -90,5 +113,25 @@
     position: relative;
     margin: 0 80px; /* Add horizontal margin to create space between logos */
     margin-right: 200px;
+  }
+
+  .b2{
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width:330px;
+  transition: background-color 0.3s ease;
+  border-radius: 100px;
+  left: 50%;
+  right: 50%;
+  margin: 0 auto;
+  margin-bottom: -10%;
+  margin-top: -10%;
   }
 }
