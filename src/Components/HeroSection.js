@@ -23,9 +23,7 @@ export default function HeroSection() {
       <div className="content">
         <h1>EXPERIENCE FRICTION FREE LOGISTICS</h1>
         <p>
-          Unlock seamless logistics solutions with our trusted services.
-          Securely book your parcels now and ensure efficient transportation
-          and delivery.
+         Unlock Seamless logistics solutions, Book parcels securely for efficient transportation and delivery
         </p>
         <div className="button-container2">
           <button className="btn-1" onClick={openRateCalcPage}>Rate Calculator</button>
