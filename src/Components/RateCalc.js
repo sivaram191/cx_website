@@ -328,7 +328,7 @@ const ShippingRatesPage = () => {
             {showBreakdown && (
               <div>
                 <div className="ta">
-                  <h3>Charged Weight &nbsp;&nbsp;&nbsp;: {finalWeight} kg</h3>
+                  <h3>Charged Weight: {finalWeight} kg</h3>
                   <h3>Base Rate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: {baseRate}</h3>
                   <h3>ODA Charges&nbsp;&nbsp;&nbsp;&nbsp;: {odaCharges}</h3>
                   <h3>Docket Charge&nbsp;&nbsp;: {docketCharge}</h3>
