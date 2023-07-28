@@ -53,6 +53,7 @@
 .social-icon {
   color: #ffffff;
   font-size: 20px;
+  padding: 3px;
 }
 
 .footer-bottom {
@@ -77,11 +78,11 @@
 
 @media (max-width: 768px) {
   .footer {
-    margin-top: 55px;
-    padding-left: 20px;
+    margin-top: px;
+    padding-left: 10px;
     padding-right: 20px;
     width: auto;
-    background: linear-gradient(to right, black 75%, white 70%);
+    background-color: #ffffff;
   }
   
   .footer-content {
@@ -91,7 +92,13 @@
   .footer-section {
     width: 100%;
     margin-bottom: -10px;
-    padding: 0 20px; /* Add this line to add horizontal padding */
+    padding: 0 20px;
+    color: black; /* Add this line to add horizontal padding */
+  }
+
+  .footer-section h3 {
+    color: black;/* Add this line to add horizontal padding */
+    font-style: italic;
   }
 
   .footer-heading {
@@ -100,11 +107,19 @@
   .container {
     height: fit-content;
     margin: 0 auto;
-    width: 108.25%;
+    width: 109%;
     margin-top: -30px;
     min-width: 100px;
     margin-left: -12px;
     padding: 0 20px;
-    background-color: darkorange; /* Add this line to set the background color to black */
+    background-color: orange; /* Add this line to set the background color to black */
+  }
+
+  .social-icon{
+    color:black;
+    padding: 3px;
+  }
+  .footer-bottom{
+    color: black;
   }
 }
