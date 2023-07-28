@@ -36,6 +36,7 @@ import logo30 from '../Components/manipal.png';
 import logo31 from '../Components/VIT_Vellore.png';
 import logo32 from '../Components/srm.png';
 
+
 const ClientsSection = () => {
   // State to store the current centerSlidePercentage based on the screen size
   const [centerSlidePercentage, setCenterSlidePercentage] = useState(25);
@@ -55,6 +56,9 @@ const ClientsSection = () => {
     };
   }, []);
 
+  const openContact = () => {
+    window.location.href = '/contact'; // Replace '/contact' with the correct contact page URL
+  };
   // Define your responsive settings for the Carousel
   const responsive = {
     desktop: {
@@ -113,7 +117,13 @@ const ClientsSection = () => {
           </div>
         ))}
       </Carousel>
+      
+
+      <button className="b2" onClick={openContact}>
+        Wanna Collaborate with Us?
+      </button>
     </div>
+    
   );
 };
 
