@@ -1,47 +1,51 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUsers, faTruck, faMapMarkerAlt,faPhone } from '@fortawesome/free-solid-svg-icons';
 import './StatsCard.css';
 
 const Stats = () => {
-  const [animatedIndex, setAnimatedIndex] = useState(0);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setAnimatedIndex((prevIndex) => (prevIndex + 1) % 4);
-    }, 2000);
-
-    return () => clearInterval(timer);
-  }, []);
-
-  const statsData = [
-    {
-      number: '10k+',
-      label: 'Happy Clients',
-    },
-    {
-      number: '50k+',
-      label: 'Shipments Delivered',
-    },
-    {
-      number: '28k+',
-      label: 'Served Pincodes',
-    },
-    {
-      number: '24/7',
-      label: 'Support',
-    },
-  ];
-
   return (
     <div className="stats-container">
-      {statsData.map((stat, index) => (
-        <div
-          key={index}
-          className={`stat ${index === animatedIndex ? 'animated' : ''}`}
-        >
-          <h1 className="stat-number">{stat.number}</h1>
-          <span className="stat-label">{stat.label}</span>
+      <div className="stat">
+        <div className="stat-icon">
+          <FontAwesomeIcon icon={faUsers} />
         </div>
-      ))}
+        <h1 className="stat-number animated">10k+</h1>
+        <span className="stat-label">Happy clients</span>
+        <p className="stat-description">
+          Over 50 satisfied clients who have availed our services and solutions.
+        </p>
+      </div>
+      <div className="stat">
+        <div className="stat-icon">
+          <FontAwesomeIcon icon={faTruck} />
+        </div>
+        <h1 className="stat-number animated">50k+</h1>
+        <span className="stat-label">Shipments delivered</span>
+        <p className="stat-description">
+We have delivered 50,000+ shipments to various destinations
+        </p>
+      </div>
+      <div className="stat">
+        <div className="stat-icon">
+          <FontAwesomeIcon icon={faMapMarkerAlt} />
+        </div>
+        <h1 className="stat-number animated">28k+</h1>
+        <span className="stat-label">Served Pincodes</span>
+        <p className="stat-description">
+        Our services cover more than 28,000 pincodes across the country.
+        </p>
+      </div>
+      <div className="stat">
+        <div className="stat-icon">
+          <FontAwesomeIcon icon={faPhone} />
+        </div>
+        <h1 className="stat-number animated">24/7</h1>
+        <span className="stat-label">Support</span>
+        <p className="stat-description">      
+We offer 24/7 exceptional customer support. assistance.
+        </p>
+      </div>
     </div>
   );
 };
