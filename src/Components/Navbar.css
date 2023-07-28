@@ -140,7 +140,7 @@
 
   .navbar-toggler {
     order: 3; /* Move toggle icon to the left */
-    margin-left: 190px;
+    margin-left: 195px;
     justify-content: flex-start;
   }
 
