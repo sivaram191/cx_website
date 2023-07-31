@@ -13,7 +13,7 @@ const Stats = () => {
         <h1 className="stat-number animated">10k+</h1>
         <span className="stat-label">Happy clients</span>
         <p className="stat-description">
-          Over 50 satisfied clients who have availed our services and solutions.
+          More than 10000 satisfied clients have availed of our services and solutions.
         </p>
       </div>
       <div className="stat">
@@ -43,7 +43,7 @@ We have delivered 50,000+ shipments to various destinations
         <h1 className="stat-number animated">24/7</h1>
         <span className="stat-label">Support</span>
         <p className="stat-description">      
-We offer 24/7 exceptional customer support. assistance.
+We offer 24/7 exceptional customer support assistance.
         </p>
       </div>
     </div>
