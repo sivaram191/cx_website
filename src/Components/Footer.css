@@ -78,7 +78,7 @@
 
 @media (max-width: 768px) {
   .footer {
-    margin-top: 100px;
+    margin-top: px;
     padding-left: 10px;
     padding-right: 20px;
     width: auto;
@@ -87,6 +87,8 @@
   
   .footer-content {
     flex-wrap: wrap;
+    margin-left: -25px;
+    margin-right: 10px;
   }
 
   .footer-section {
@@ -112,7 +114,8 @@
     min-width: 100px;
     margin-left: -12px;
     padding: 0 20px;
-    background-color: orange; /* Add this line to set the background color to black */
+    background-color: orange;
+     /* Add this line to set the background color to black */
   }
 
   .social-icon{
@@ -123,3 +126,4 @@
     color: black;
   }
 }
+
