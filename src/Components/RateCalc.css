@@ -34,7 +34,7 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
   width: 450px;
   height: auto;
-  max-width: 100%;
+  max-width: 1000px;
   margin-left:-650px;
   margin-top: 0px;
   position: absolute; /* Add position relative to the content-box */
@@ -236,10 +236,11 @@ input {
   }
 
   .content-box {
-    width: 95%;
+    width: 500px;
     margin-left:0px;
-    margin-top: 470px;
-    margin-bottom: 600px;
+    margin-top: -400px;
+    
+    position:static;
   }
 
   .content-box h1{
@@ -250,6 +251,7 @@ input {
   .shipping-rates-page{
     background-image: url(./phonerate.jpg);
     margin-bottom: -54px;
+    height: 1040px;
   }
   .total-amount {
     font-size: 18px;
@@ -257,8 +259,8 @@ input {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     width: 280px;
-    margin-left: 14px;
-    margin-top: 500px;
+    margin-left: -340px;
+    margin-top: 320px;
   }
   .total-amount h2 {
     font-size: 18px;
@@ -269,7 +271,7 @@ input {
   .breakdown-button {
     margin-top: -45px;
     font-family: 'Roboto', sans-serif;
-    margin-left: 300px;
+    margin-left: -40px;
   }
   .breakdown-button .calculate-button {
     background-color: #a011d9;
@@ -282,14 +284,13 @@ input {
   }
 
   .ta {
-    margin-top: 200px;
     font-size: 2px;
     font-weight: bolder;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     width: 300px;
-    margin-top: 650px;
-    margin-left: 0%;
+    margin-top: 480px;
+    margin-left: -350px;
     background-color: #000000;
   }
 
