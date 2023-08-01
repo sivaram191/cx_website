@@ -133,20 +133,20 @@
   }
 
   .navbar-brand {
-    order: 1; /* Move logo to the center */
+    order: 2; /* Move logo to the center */
     text-align: center;
     margin: 0 auto; /* Center the logo */
+    margin-right: 3px;
   }
 
   .navbar-toggler {
-    order: 3; /* Move toggle icon to the left */
-    margin-left: 195px;
+    order: 2; /* Move toggle icon to the left */
+    margin-left: -17px;
     justify-content: flex-start;
   }
 
   .btn0 {
-    margin-right: 30px;
-    margin-left: -1200px;
+    margin-right: 0px;
     width: 150px;
     margin-top: -2px;
     height: 40px;
@@ -155,6 +155,6 @@
   .navbar-logo {
     width: 170px;
     margin-right: -10px;
-    margin-left: -10px;
+    margin-left: -px;
   }
 }
