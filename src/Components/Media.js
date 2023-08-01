@@ -15,7 +15,7 @@ const MediaPage = () => {
 
   return (
     <div className="media-page">
-      <h2 className="media-heading">MEDIA PAGE</h2>
+      <h2 className="media-heading"></h2>
       <div className="media-grid">
         {images.map((image, index) => (
           <div key={index} className="media-item">
