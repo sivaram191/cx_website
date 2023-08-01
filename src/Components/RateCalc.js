@@ -134,7 +134,7 @@ const ShippingRatesPage = () => {
     setGST(gstAmount.toFixed(2));
     setTotal(totalValue.toFixed(2));
     setODACharges(odaChargesValue.toFixed(2));
-    setfinalWeight(finalWeight);
+    setfinalWeight(finalWeight.toFixed(2));
   };
   
 
@@ -328,7 +328,7 @@ const ShippingRatesPage = () => {
             {showBreakdown && (
               <div>
                 <div className="ta">
-                  <h3>Charged Weight: {finalWeight} kg</h3>
+                  <h3>Charged Weight: {finalWeight} kgs</h3>
                   <h3>Base Rate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: {baseRate}</h3>
                   <h3>ODA Charges&nbsp;&nbsp;&nbsp;&nbsp;: {odaCharges}</h3>
                   <h3>Docket Charge&nbsp;&nbsp;: {docketCharge}</h3>
